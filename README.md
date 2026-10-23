@@ -14,6 +14,10 @@ agent-skills/
     └── scripts/
 ```
 
+## Skills
+
+- [project-bootstrap](project-bootstrap/SKILL.md)：显式调用的项目初始化与任务线迁移。默认建立单任务线规则与本地 Git；支持英文、中文规则模板，只有明确要求时才分离任务线。项目日常工作不隐式启用，也不需要反复调用。
+
 ## 安装
 
 脚本将每个 skill 文件夹链接到安装目录，修改仓库中的内容会直接生效，无需重新复制。新增 skill 后再运行一次即可。

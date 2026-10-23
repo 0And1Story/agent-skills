@@ -1,0 +1,43 @@
+# Project working agreements
+
+## Scope and priorities
+
+- This directory is the project root. Keep project-content searches and writes within it unless the user authorizes another location; respect applicable ancestor instructions. External primary sources may be consulted when relevant.
+- Use the user's confirmed goals, scope, and acceptance criteria. Keep unknowns explicit rather than inventing requirements, results, or permissions.
+- Keep this file focused on durable shared rules. Current progress belongs in state files; deliverable entry points belong in `README.md`.
+
+## Working context
+
+- This project uses one task track. Read `STATE.md` when resuming work and `MEMORY.md` when present. Do not introduce track-routing files or multiple-track state unless the user explicitly requests separation.
+- Keep `STATE.md` concise: current goal/stage, completed facts with evidence, unresolved issues/blockers, and actionable next steps. Distinguish proposed, implemented, and verified work.
+- Use `MEMORY.md` for lasting decisions, their reasons, and reusable lessons with links or commit references. Create it only when useful. Consolidate it at milestones, direction changes, or when content becomes repetitive/outdated; merge or replace entries rather than append a daily log. Aim for about one page.
+- Use Git for detailed history; do not maintain `HISTORY.md`. Narrow history by path/date, then inspect the relevant commit and diff.
+
+## Questions, reports, and editing
+
+- Questions about existing information, explanations, and short checks that do not change the work state are read-only: answer in the conversation. Do not update rules, state, memory, navigation, or dates; do not create a report, check file, or empty commit.
+- Write a report only when the user explicitly requests one. Requested product artifacts, papers, presentations, or file edits are still the task deliverables; do not add an unsolicited summary report.
+- A new requested report is independent and should not overwrite an earlier one. Revise the same report in place only when requested. Make each report independently understandable with conclusions, key evidence, recommendations, and limits as relevant.
+- Reviewing a draft does not imply permission to rewrite it. Give review feedback in the conversation by default; save it separately only when requested. Apply edits within the requested scope and preserve the author's material unless broader changes are authorized.
+
+## Evidence and version boundaries
+
+- Distinguish source claims, verified facts, interpretations, proposals, and this project's measured results. A plan, external benchmark, or published demonstration is not a completed project experiment.
+- For source-dependent work, use original or authoritative sources, preserve relevant version/access-date information, and record provenance. Retain originals or snapshots and integrity information when needed for a substantial evidence trail; do not manufacture missing metadata or cite an access year as a publication year.
+- State the scope/date of negative searches and unverified capabilities. Repository availability, a complete execution entry point, and a successful run are different facts.
+- Preserve original inputs and annotated documents. Distinguish editable sources, generated exports, manually revised copies, and approved/submitted versions; do not silently synchronize or overwrite them. Record the source version when reusing a shared result.
+- For comparisons, control relevant inputs, tools, backends, and resource budgets before attributing a difference to one factor. Report failures and limits as well as successful cases when evaluating outcomes.
+
+## Files and navigation
+
+- `README.md` provides concise navigation; `docs/` holds requested formal reports; `references/` holds consulted originals and provenance; reusable tools belong in the project's established source/tool directory. Create only directories needed by actual work.
+- Keep internal evidence, planning, review, and necessary saved checks separate from formal deliverables, for example under `docs/internal/`. Do not present process files as additional deliverables by default.
+- Use `tmp/inputs/`, `tmp/scripts/`, `tmp/outputs/`, `tmp/logs/`, and `tmp/cache/` for scratch work as needed. Keep temporary files out of Git unless explicitly intended for preservation; do not place scripts among source documents or scatter files at the scratch root.
+- Preserve original source bytes when integrity matters. Before moving files, confirm ownership and destinations; repair affected links and script paths, and avoid overwriting existing files.
+
+## Updates, checks, and Git
+
+- After substantive work, update only changed state or useful memory. Change this file only when durable shared scope, organization, or rules change; update navigation when entry points change. Do not modify dates just to show activity.
+- Verify the changed deliverable with checks appropriate to its risk and format. Check affected links and dependencies. A simple document edit does not require new test infrastructure, a saved check report, or an exhaustive rebuild.
+- For authorized substantive changes, commit relevant verified files locally under the repository's policy; inspect the diff and status and exclude unrelated edits, secrets, and temporary output. Do not push, publish, or change remotes without explicit instructions.
+- Explain what changed, what was verified, and any material unresolved limitation briefly in the conversation.

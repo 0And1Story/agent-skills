@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Bootstrap"
+  short_description: "Explicit project setup and task-track migration"
+  default_prompt: "Use $project-bootstrap to initialize this project with lightweight rules, local Git, and a single task track."
+
+policy:
+  allow_implicit_invocation: false
