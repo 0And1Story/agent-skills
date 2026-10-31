@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文分享"
+  short_description: "输入单篇论文，按 A–G 框架分析问题、方法、实验证据和文献联系，输出中文分享稿"
+  default_prompt: "使用 $paper-sharing 分析我提供的论文，按 A–G 框架生成可用于组会分享的中文内容，并标注关键证据。"
