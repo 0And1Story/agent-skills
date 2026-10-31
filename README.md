@@ -16,6 +16,7 @@ agent-skills/
 
 ## Skills
 
+- [research-weekly-report](research-weekly-report/SKILL.md)：按上周计划、本周完成情况、下周计划整理中文科研周报，附可独立使用的 one-shot 提示词。
 - [project-bootstrap](project-bootstrap/SKILL.md)：显式调用的项目初始化与任务线迁移。默认建立单任务线规则与本地 Git；支持英文、中文规则模板，只有明确要求时才分离任务线。项目日常工作不隐式启用，也不需要反复调用。
 
 ## 安装

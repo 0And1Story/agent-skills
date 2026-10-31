@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研周报"
+  short_description: "根据实验记录整理中文科研周报，保留实验细节、真实进展与后续验证计划"
+  default_prompt: "使用 $research-weekly-report，将我的工作记录整理成包含上周计划、本周完成情况和下周计划的科研周报。"
