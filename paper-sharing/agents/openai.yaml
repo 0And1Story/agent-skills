@@ -1,4 +1,4 @@
 interface:
   display_name: "论文分享"
-  short_description: "按 A–G 框架生成中文论文分享文案，默认纯文本，支持详细解释模式"
+  short_description: "生成自然易懂的中文论文分享内容，支持纯文本文案、详细解释和精简三种模式"
   default_prompt: "使用 $paper-sharing 分析我提供的论文，按 A–G 框架生成自然易懂、重点清楚的纯文本中文分享文案。"
